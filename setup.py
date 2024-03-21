@@ -5,10 +5,9 @@ setup(
     version='1.0.0',
     description='A lightweight event-driven framework for Python',
     long_description=open('README.rst').read(),
-    long_description_content_type='text/x-rst',
-    url='https://github.com/yourusername/jcevents',
+    url='https://github.com/jencat42/jcevents',
     author='Your Name',
-    author_email='your@email.com',
+    author_email='gubenkovalik@gmail.com',
     license='MIT',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -27,11 +26,4 @@ setup(
     packages=find_packages(),
     python_requires='>=3.6',
     install_requires=[],
-    extras_require={
-        'dev': [
-            'pytest',
-            'coverage',
-            'flake8',
-        ]
-    },
 )
