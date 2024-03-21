@@ -1,10 +1,14 @@
 from setuptools import setup, find_packages
 
+with open('README.md', 'r', encoding='utf-8') as f:
+    long_description = f.read()
+
 setup(
     name='jcevents',
-    version='1.0.0',
+    version='1.0.1',
     description='A lightweight event-driven framework for Python',
-    long_description='',
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/jencat42/jcevents',
     author='Your Name',
     author_email='gubenkovalik@gmail.com',
