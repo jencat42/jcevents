@@ -4,7 +4,7 @@ setup(
     name='jcevents',
     version='1.0.0',
     description='A lightweight event-driven framework for Python',
-    long_description=open('README.rst').read(),
+    long_description='',
     url='https://github.com/jencat42/jcevents',
     author='Your Name',
     author_email='gubenkovalik@gmail.com',
